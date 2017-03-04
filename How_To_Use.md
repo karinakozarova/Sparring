@@ -11,7 +11,7 @@ Download the .html file from my repository
 <li> Download the Sparring_score.html file <a href= "http://imgur.com/a/jdYps"> </a> </li>
 
 <h2> Step 2 </h2>
-Open it with a browser (Chrome,Opera,Safari,etc).
+Open it with a browser (Chrome, Opera, Safari, etc).
 <blockquote> Don't open it with a file editor (Notepad,HTML viewer,Google Docs,etc) because this will only show you the code,but won't run it. </blockquote> Your screen should look like this:
  <a href= "http://imgur.com/tZh1f2B"> <img src = "http://i.imgur.com/tZh1f2B.png"> </a> </li>
 

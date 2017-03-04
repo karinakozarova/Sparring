@@ -19,6 +19,7 @@ Open it with a browser (Chrome,Opera,Safari,etc).
 <h4>This step is all about using the app. </h4> 
 When you want to start the timer, simply click where you see 1:00.
 When you click it,the timer will start counting down until it reaches to 0:00. You have exactly one minute to write the scores. 
+
 <blockquote> NB! The scores here are simplified. When competing not all kicks are scored, there are some rules which I'll upload later. </blockquote>
 
 For example if player1 hits player2 with hands, you should click the left +1 button. If player1 kicks player2 in the head, you should click the left +3 button. If player1 kicks player2 at the body - click the left +2 button. 
@@ -27,6 +28,6 @@ For example if player1 hits player2 with hands, you should click the left +1 but
 
 <blockquote> NB!When the timer ends do not click the +1, +2 or +3 button because it'll add it to the score!</blockquote>
 
-When the clock hits zero, click the <b> Click to show result </b> button to see how did the players do. You can also click on the timer and you'll be shown who won and by how many points. After that you can click OK and the timer will restart automatically BUT THE SCORE WILL KEEP ON BECOMING BIGGER(it won't be restarted from the previous 1 minute). If you want to start from player1 score - 0 and player2 score = 0,refresh the site. 
+When the clock hits zero, click the <b> Click to show result </b> button to see how did the players do. You can also click on the timer and you'll be shown who won and by how many points. After that you can click OK and the timer will restart automatically BUT THE SCORE WILL KEEP ON BECOMING BIGGER(it won't be restarted from the previous 1 minute). If you want to start from player1 score = 0 and player2 score = 0,refresh the site. 
 
 <blockquote> NB! Whenever you refresh the page,the results and the timer will be restarted too.Keep that in mind. </blockquote>

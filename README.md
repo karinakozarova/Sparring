@@ -12,7 +12,7 @@ A Taekwon-do ITF sparring website.
 Hosted proudly at <a href="https://karinakozarova.github.io/Sparring/"> karinakozarova.github.io/Sparring </a> <br>
 Feel free to contact me for any questions or ideas here or on: email: karinakozarova1303@gmail.com , Facebook: <a href = " https://www.facebook.com/karinakkozarova"> Karina Kozarova </a> <br>
 
-Screenshots:
+<h1>Screenshots:</h1>
 <a href="https://ibb.co/eGThBF"><img src="https://image.ibb.co/iONW5a/scr1.jpg" alt="scr1" border="0"></a><br />
 
 

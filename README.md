@@ -9,4 +9,6 @@ A Taekwon-do ITF sparring website.
  <li> Shows who is the winner and points of both players</li>
  <li> design makes it easy to use both on mobile and web </li>
  <hr> <br> <br>
-<a href="https://ibb.co/eGThBF"><img src="https://image.ibb.co/iONW5a/scr1.jpg" alt="scr1" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+<a href="https://ibb.co/eGThBF"><img src="https://image.ibb.co/iONW5a/scr1.jpg" alt="scr1" border="0"></a><br />
+
+Hosted proudly at <a href="https://karinakozarova.github.io/Sparring/"> karinakozarova.github.io/Sparring </a>

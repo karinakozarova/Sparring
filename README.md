@@ -8,7 +8,7 @@ A Taekwon-do ITF sparring website.
  <li> scores for 2 players/teams</li>
  <li> showing who is the winner of the round and points of both players</li>
  <li> design makes it easy to use both on mobile and web </li>
- <hr> <br> <br>
+ <br> <hr> <br>
 Hosted proudly at <a href="https://karinakozarova.github.io/Sparring/"> karinakozarova.github.io/Sparring </a> <br>
 Feel free to contact me for any questions or ideas here or on: email: karinakozarova1303@gmail.com , Facebook: <a href = " https://www.facebook.com/karinakkozarova"> Karina Kozarova </a> <br>
 

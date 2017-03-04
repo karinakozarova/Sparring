@@ -18,9 +18,12 @@ Open it with a browser (Chrome,Opera,Safari,etc).
 <h2> Step 3 </h2>
 <h4>This step is all about using the app. </h4> 
 When you want to start the timer, simply click where you see 1:00.
-When you click it,the timer will start counting down until it reaches to 0:00. You have exactly one minute to write the scores. For example if player1 hits player2 with hands, you should click the left +1 button. If player1 kicks player2 in the head, you should click the left +3 button. If player1 kicks player2 at the body - click the left +2 button. 
-
+When you click it,the timer will start counting down until it reaches to 0:00. You have exactly one minute to write the scores. 
 <blockquote> NB! The scores here are simplified. When competing not all kicks are scored, there are some rules which I'll upload later. </blockquote>
+
+For example if player1 hits player2 with hands, you should click the left +1 button. If player1 kicks player2 in the head, you should click the left +3 button. If player1 kicks player2 at the body - click the left +2 button. 
+
+
 
 <blockquote> NB!When the timer ends do not click the +1, +2 or +3 button because it'll add it to the score!</blockquote>
 

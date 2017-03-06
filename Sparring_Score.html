@@ -6,7 +6,7 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<style>
 					body {
-						background-color: grey;
+						background-color: silver;
 					}
 
 					h1 {
@@ -18,9 +18,6 @@
 						font-family: verdana;
 						font-size: 20px;
 					}
-					
-					
-	
 				
 			</style>
 			
@@ -31,15 +28,15 @@
 			<h1> <center> Taekwon-Do score keeper </center> </h1>
 			
 			<center> <button id="counter" style="width:150px" class="btn btn-info" type="submit">1:00</button> </center>
-			<hr> <hr> <br> <br>
+			<hr/> <hr/> <br/> <br/>
 
 			<center>
 			<button style="width:150px"  id="b1" class="btn btn-success" type="submit"> +1  </button> 
-			<button style="width:150px"  id="b2" class="btn btn-success" type="submit">  +1  </button> <br> <br> <br>
+			<button style="width:150px"  id="b2" class="btn btn-success" type="submit">  +1  </button> <br/> <br/> <br/>
 			<button style="width:150px"  id="b3" class="btn btn-success" type="submit">  +2  </button>
-			<button style="width:150px"  id="b4" class="btn btn-success" type="submit">  +2  </button> <br> <br> <br>
+			<button style="width:150px"  id="b4" class="btn btn-success" type="submit">  +2  </button> <br/> <br/> <br/>
 			<button style="width:150px"  id="b5" class="btn btn-success" type="submit">  +3  </button> 
-			<button style="width:150px"  id="b6" class="btn btn-success" type="submit">  +3  </button> <br> <br>
+			<button style="width:150px"  id="b6" class="btn btn-success" type="submit">  +3  </button> <br/> <br/>
 			<button  id="b7" class="btn btn-danger" type="submit">  Click to see result  </button> 
 			</center>
 		<script>
@@ -78,6 +75,7 @@
 			}
 		counter.onclick = function countdown() {
 			var seconds = 60;
+			
 			function tick() {
 				var counter = document.getElementById("counter");
 				seconds--;
@@ -86,6 +84,7 @@
 					setTimeout(tick, 1000);
 				} 
 			}
+			
 			tick();
 			if (score_player1>score_player2) alert("The winner is Player 1! Click ok to restart the timer and start a new round.");
 			if (score_player2>score_player1) alert("The winner is Player 2! Click ok to restart the timer and start a new round.");
@@ -95,24 +94,23 @@
 		countdown();
 		
 		</script>
-	<hr>
+	<hr/>
 	<footer>
 
-		<p style="color:gray">
-			<center> <small> 
-				 The MIT License (MIT) <br>
+		<p style="color:gray" style="font-size:small">
+			<center> <small> <small> <small> <small><small> <small> 
+				 The MIT License (MIT) <br/>
 
-				Copyright (c) 2017 Karina Kozarova <br>
+				Copyright (c) 2017 Karina Kozarova <br/>
 
 				Permission is hereby granted, free of charge, to any person obtaining a copy
 				of this software and associated documentation files (the "Software"), to deal
 				in the Software without restriction, including without limitation the rights
 				to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 				copies of the Software, and to permit persons to whom the Software is
-				furnished to do so, subject to the following conditions: <br>
-
+				furnished to do so, subject to the following conditions: 
 				The above copyright notice and this permission notice shall be included in all
-				copies or substantial portions of the Software. <br>
+				copies or substantial portions of the Software. 
 
 				THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 				IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -120,7 +118,7 @@
 				AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 				LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 				OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-				SOFTWARE. </small>
+				SOFTWARE. </small> </small> </small> </small> </small> </small> 
 			</center> 
 		</p> 
 	</footer>

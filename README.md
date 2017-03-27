@@ -1,5 +1,5 @@
 # Sparring
-A Taekwon-do ITF sparring website.
+A Taekwon-do ITF sparring scoreboard website.
 
 <br>
  Basic functions include:

@@ -9,12 +9,10 @@
         body {
             background-color: silver;
         }
-
         h1 {
             color: white;
             text-align: center;
         }
-
         p {
             font-family: verdana;
             font-size: 20px;
@@ -46,7 +44,6 @@
     <script>
         var score_player1 = 0,
             score_player2 = 0;
-
         var b1 = document.getElementById('b1');
         var b2 = document.getElementById('b2');
         var b3 = document.getElementById('b3');
@@ -56,46 +53,37 @@
         var b7 = document.getElementById('b7');
         var reset = document.getElementById('reset');
         var counter = document.getElementById('counter');
-
         var timer_state = 0; // if 1 -> it was clicked 
-
         b1.onclick = function() {
             score_player1 += 1;
         }
-
         b2.onclick = function() {
             score_player2 += 1;
         }
-
         b3.onclick = function() {
             score_player1 += 2;
         }
-
         b4.onclick = function() {
             score_player2 += 2;
         }
-
         b5.onclick = function() {
             score_player1 += 3;
         }
-
         b6.onclick = function() {
             score_player2 += 3;
         }
-
         b7.onclick = function() {
             window.alert("Player 1: " + score_player1 + " vs Player2: " + score_player2);
         }
-
         reset.onclick = function() {
             seconds = 60;
             timer_state = 0;
-            reset.innerHTML = "You can reset now";
+	    reset.innerHTML = "You can reset now";
         }
-        reset.innerHTML = "Allow Reseting";
+reset.innerHTML = "Allow Reseting";
         counter.onclick = function countdown() {
             var seconds = 60;
-            reset.innerHTML = "Allow Reseting";
+		reset.innerHTML = "Allow Reseting";
             if (timer_state == 0) {
                 function tick() {
                     var counter = document.getElementById("counter");
@@ -105,14 +93,11 @@
                         setTimeout(tick, 1000);
                     }
                 }
-
                 tick();
-
                 if (score_player1 > score_player2) {
                     alert("The winner is Player 1! Click ok to restart the timer and start a new round.");
                     seconds = 60;
                 }
-
                 if (score_player2 > score_player1) {
                     alert("The winner is Player 2! Click ok to restart the timer and start a new round.");
                     seconds = 60;
@@ -120,6 +105,7 @@
                 timer_state = 1;
             }
         }
+       // countdown();
     </script>
 </body>
 

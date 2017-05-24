@@ -34,13 +34,14 @@
     <hr/> <br/> <br/>
 
     <center>
-        <button style="width:30%" id="b1" class="btn btn-success" type="submit" height="100px"> +1  </button>
+        <button style="width:30%" id="b1" class="btn btn-success" type="submit" height="100px">  +1  </button>
         <button style="width:30%" id="b2" class="btn btn-success" type="submit" height="100px">  +1  </button> <br/> <br/> <br/>
         <button style="width:30%" id="b3" class="btn btn-success" type="submit" height="100px">  +2  </button>
         <button style="width:30%" id="b4" class="btn btn-success" type="submit" height="100px">  +2  </button> <br/> <br/> <br/>
         <button style="width:30%" id="b5" class="btn btn-success" type="submit" height="100px">  +3  </button>
         <button style="width:30%" id="b6" class="btn btn-success" type="submit" height="100px">  +3  </button> <br/> <br/>
-        <button id="b7" class="btn btn-danger" type="submit">  Click to see result  </button>
+        <button id="b7" class="btn btn-warning" type="submit" style="width:30%" margin="15%">  Click to pause and see results  </button>
+        <button id="reset" class="btn btn-danger" type="submit">  Allow resetting </button>
     </center>
     <script>
         var score_player1 = 0,
@@ -53,8 +54,10 @@
         var b5 = document.getElementById('b5');
         var b6 = document.getElementById('b6');
         var b7 = document.getElementById('b7');
+        var reset = document.getElementById('reset');
         var counter = document.getElementById('counter');
 
+        var timer_state = 0; // if 1 -> it was clicked 
 
         b1.onclick = function() {
             score_player1 += 1;
@@ -84,32 +87,39 @@
             window.alert("Player 1: " + score_player1 + " vs Player2: " + score_player2);
         }
 
+        reset.onclick = function() {
+            seconds = 60;
+            timer_state = 0;
+            reset.innerHTML = "You can reset now";
+        }
+        reset.innerHTML = "Allow Reseting";
         counter.onclick = function countdown() {
             var seconds = 60;
-
-            function tick() {
-                var counter = document.getElementById("counter");
-                seconds--;
-                counter.innerHTML = "0:" + (seconds < 10 ? "0" : "") + String(seconds);
-                if (seconds > 0) {
-                    setTimeout(tick, 1000);
+            reset.innerHTML = "Allow Reseting";
+            if (timer_state == 0) {
+                function tick() {
+                    var counter = document.getElementById("counter");
+                    seconds--;
+                    counter.innerHTML = "0:" + (seconds < 10 ? "0" : "") + String(seconds);
+                    if (seconds > 0) {
+                        setTimeout(tick, 1000);
+                    }
                 }
+
+                tick();
+
+                if (score_player1 > score_player2) {
+                    alert("The winner is Player 1! Click ok to restart the timer and start a new round.");
+                    seconds = 60;
+                }
+
+                if (score_player2 > score_player1) {
+                    alert("The winner is Player 2! Click ok to restart the timer and start a new round.");
+                    seconds = 60;
+                }
+                timer_state = 1;
             }
-
-            tick();
-
-            if (score_player1 > score_player2) {
-                alert("The winner is Player 1! Click ok to restart the timer and start a new round.");
-                seconds = 60;
-            }
-
-            if (score_player2 > score_player1) {
-                alert("The winner is Player 2! Click ok to restart the timer and start a new round.");
-                seconds = 60;
-            }
-
         }
-        countdown();
     </script>
 </body>
 

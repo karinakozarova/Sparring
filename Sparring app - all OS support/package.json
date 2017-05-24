@@ -1,0 +1,33 @@
+
+{
+  "name": "sparring",
+  "version": "1.0.0",
+  "description": "A Taekwon-Do sparring counter app",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "asar": "^0.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karinakozarova/Sparring/"
+  },
+  "keywords": [
+    "sparring",
+    "counter",
+    "timer",
+    "app",
+    "reset",
+    "ITF"
+  ],
+  "author": "Karina Kozarova",
+  "license": "MIT"
+}
+
+

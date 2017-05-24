@@ -1,4 +1,4 @@
-<h1> How to use this online https://github.com/karinakozarova/Sparring/blob/master/ITF_TKD_Rules.md</h1>
+<h1> How to use this online</h1>
 <hr>
 
 This will be a very simple guide on how to use the app. It is a step-by-step tutorial so that everyone (including small children) can be able to use easy the app.

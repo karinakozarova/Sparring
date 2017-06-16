@@ -9,8 +9,7 @@ A Taekwon-do ITF sparring scoreboard website.
  <li> showing who is the winner of the round and points of both players</li>
  <li> design makes it easy to use both on mobile and web </li>
  <br> <hr> <br>
-Hosted proudly at <a href="https://karinakozarova.github.io/Sparring/"> karinakozarova.github.io/Sparring </a> <br>
-Feel free to contact me for any questions or ideas here or on: email: karinakozarova1303@gmail.com , Facebook: <a href = " https://www.facebook.com/karinakkozarova"> Karina Kozarova </a> <br>
+Also, it can be installed as an Electron app.
 
 <h1>Screenshots:</h1>
 <a href="https://ibb.co/eGThBF"><img src="https://image.ibb.co/iONW5a/scr1.jpg" alt="scr1" border="0"></a><br />

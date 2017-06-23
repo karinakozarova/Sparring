@@ -1,4 +1,4 @@
-# Sparring
+# Sparring [![Inline docs](http://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](http://inch-ci.org/github/dwyl/hapi-auth-jwt2) 
 A Taekwon-do ITF sparring scoreboard website.
 
 <br>

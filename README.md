@@ -1,4 +1,7 @@
-# Sparring [![Inline docs](http://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](http://inch-ci.org/github/dwyl/hapi-auth-jwt2) 
+[![forthebadge](http://forthebadge.com/images/badges/uses-html.svg)](http://forthebadge.com) 
+[![forthebadge](http://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
+# Sparring  [![Inline docs](http://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](http://inch-ci.org/github/dwyl/hapi-auth-jwt2) 
 A Taekwon-do ITF sparring scoreboard website.
 
 <br>
